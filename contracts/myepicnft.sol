@@ -142,7 +142,7 @@ contract MyEpicNFT is ERC721URIStorage {
 
     _safeMint(msg.sender, newItemId);
     
-    // Update your URI!!!
+    
     _setTokenURI(newItemId, finalTokenUri);
   
     _tokenIds.increment();
